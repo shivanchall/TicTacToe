@@ -1,0 +1,39 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 5%;
+}
+.square {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  color: aquamarine;
+  margin: 0.5rem;
+  border-radius: 5%;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.row-square {
+  /* //max-height: 110px; */
+  display: absolute;
+}
+.span-square {
+  visibility: hidden;
+  /* display: none; */
+}
+.clear {
+  padding: 15px;
+  margin: 60px;
+  color: white;
+  background-color: black;
+  border-radius: 5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
